@@ -54,8 +54,11 @@ def main():
         ('ing', 'ingress', ['g', 'd', 'rm'], None),
         ('cm', 'configmap', ['g', 'd', 'rm'], None),
         ('sec', 'secret', ['g', 'd', 'rm'], None),
+        ('es', 'externalsecret', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
+        ('pv', 'persistentvolume', ['g', 'd', 'rm'], ['sys']),
+        ('pvc', 'persistentvolumeclaim', ['g', 'd', 'rm'], None)
         ]
     res_types = [r[0] for r in res]
 
