@@ -58,7 +58,8 @@ def main():
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
         ('pv', 'persistentvolume', ['g', 'd', 'rm'], ['sys']),
-        ('pvc', 'persistentvolumeclaim', ['g', 'd', 'rm'], None)
+        ('pvc', 'persistentvolumeclaim', ['g', 'd', 'rm'], None),
+        ('ss', 'statefulset', ['g', 'd', 'rm'], None)
         ]
     res_types = [r[0] for r in res]
 
